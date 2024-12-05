@@ -20,9 +20,6 @@ public class Calculator {
     }
 
     public int solver(){
-        int a = 5;
-        int b = 10;
-
-        return times(a, b) + div(b, a) - dif(a, b) - add(a, b);
+        return times(add(1, 5), dif(div(80, 10), times(2, 2)));
     }
 }
