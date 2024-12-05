@@ -12,6 +12,6 @@ public class Calculator {
         return a * b;
     }
     public int solver(){
-        return times(add(1, 5), dif(div(70, 10), times(2, 2)));
+        return times(add(1, 5), dif(div(80, 10), times(2, 2)));
     }
 }
